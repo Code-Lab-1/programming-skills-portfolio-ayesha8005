@@ -1,0 +1,23 @@
+#exercise 1
+message1 = "hello"
+print(message1)
+message1= "goodbye"
+print(message1)
+
+#exercise 2
+print("Aristotle once said," """ "It is during our darkest moments that we must focus to see the light." """)
+
+#exercise 3
+name = " \tAyesha Adnan\n "
+print(name)
+print(name.lstrip())
+print(name.rstrip())
+print(name.strip())
+
+#exercise4
+fav_number = 13
+print( "My favorite number is " + str(fav_number) + ".")
+
+#exercise 5
+print("the number of USB sticks she buys =" , 50//6)
+print("pounds left =" , 50%6)

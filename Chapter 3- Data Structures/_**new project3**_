@@ -1,0 +1,97 @@
+#exercise 1
+names = ["shams", "maryam", "rahaf"]
+print(names[0])
+print(names[1])
+print(names[2])
+
+#exercise2
+message = names[0]
+print("Hello", message + "," " I hope you're having a good day!") 
+message = names[1]
+print("Hello", message + "," " I hope you're having a good day!") 
+message = names[2]
+print("Hello", message +  "," " I hope you're having a good day!") 
+
+#exercise3
+fav_transpo = ["car", "bicycle", "metro", "plane"]
+for f in fav_transpo:
+    print("I would love to own a", f)
+
+#exercise 4
+invites = ["Andrew Garfield", "Ana de Armas", "Evan Peters"]
+for i in invites:
+    print( i +", I'd like to invite you for dinner.")
+
+#exercise 5
+list = invites[0]
+print(list + ", I'd like to invite you for dinner.")
+list = invites[1]
+print(list + ", I'd like to invite you for dinner.")
+list = invites[2]
+print("Sorry,", list, "cant make it to dinner.")
+
+del(invites[2])
+print (invites)
+invites.insert(2, "Chris Evans")
+print(invites)
+
+list = invites[0]
+print(list + ", I'd like to invite you for dinner.")
+list = invites[1]
+print(list + ", I'd like to invite you for dinner.")
+list = invites[2]
+print(list + ", I'd like to invite you for dinner.")
+
+#exercise 6
+print("Sorry, We can only invite two people for dinner")
+
+print("Sorry" , invites[0] +", we can't invite you to dinner.")
+invites.pop(0)
+
+list = invites[0]
+print(list + ", I'd like to invite you for dinner.")
+list = invites [1]
+print(list + ", I'd like to invite you for dinner.")
+
+del(invites[0])
+del(invites[0])
+
+print(invites)
+
+#exercise 7
+places = ["Paris", "Tokyo", "Italy", "Turkey","Alaska"]
+print("Original Order:")
+print(places)
+
+print("Alphabetically:")
+print(sorted(places))
+
+print("Orginal Order:")
+print(places)
+
+print("Reverse:")
+places.reverse()
+print(places)
+
+print("Orginal Order:")
+print(places)
+
+print("Reverse alphabatical:")
+print(sorted(places , reverse=True))
+
+print("Original order:")
+print(places)
+
+print("Reverse:")
+places.reverse()
+print(places)
+
+print("Original Order:")
+print(places)
+
+print("Alphabatecially")
+print(sorted(places))
+print (places)
+
+print("Reverse alphabatically")
+print(sorted(places , reverse=True))

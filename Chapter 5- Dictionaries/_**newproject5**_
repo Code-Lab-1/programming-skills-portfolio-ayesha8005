@@ -1,0 +1,50 @@
+#exercise 1
+info = {"first_name": "Rahaf", "last_name": "Mustafa", "age": 18, "city": "Ajman"}
+
+print(info["first_name"])
+print(info["last_name"])
+print(info["age"])
+print(info["city"])
+
+#exercise 2
+glossary = {"list" : "Lists are used to store multiple items in a single variable." , "iterators" : "An iterator is an object that contains a countable number of values.", "tuples" : "Tuples are used to store multiple items in a single variable." , "sets" : "Sets are used to store multiple items in a single variable.", "functions" : "A function is a block of code which only runs when it is called.", "boolean" : "Booleans represent one of two values: True or False", "dictionaries" : "Dictionaries are used to store data values in key:value pairs.", "variables" : "Variables are containers for storing data values." , "for loops" : "A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string)." , "while loop" : "With the while loop we can execute a set of statements as long as a condition is true." }
+
+print("List :")
+print(glossary['list'] + '\n')
+print("Iterators :")
+print(glossary['iterators'] + '\n')
+print("Tuples :")
+print(glossary['tuples'] + '\n')
+print("Set :")
+print(glossary['sets'] + '\n')
+print("Functions :")
+print(glossary['functions'] + '\n')
+
+
+for i in glossary.items():
+   print(i)
+
+#exercise 4
+major_rivers = {"ganges" : "India", "nile" : "Egypt", "amazon river" : "South Africa"}
+
+for river, country in major_rivers.items():
+    print("The river" , river.title() + " flows through " + country.title())
+
+print("Name of river:")
+for i in major_rivers.keys():
+    print(i)
+
+print("Name of country:")
+for i in major_rivers.values():
+    print(i)
+
+#exercise5
+cat = {"animal type" : "cat", "name": "silver", "owners name": "dana", "eats": "tuna"}
+
+snake = {"animal type" : "snake", "name":"cobra", "owners name": "jude", "eats" : "rats"}
+
+bird = {"animal type" : "bird", "name" : "bob", "owners name" : "mark", "eats" : "seeds"}
+
+pet = [cat,snake,bird]
+for i in pet:
+    print(i)

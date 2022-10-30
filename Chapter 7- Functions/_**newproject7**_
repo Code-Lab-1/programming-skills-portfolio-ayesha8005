@@ -1,0 +1,33 @@
+#exercise 1
+def display_message():
+ message = "Im learning about loops in python"
+ print(message)
+display_message()
+
+#exercise 2
+def favorite_book(title):
+    print("The book " , title ,  "is my favorite book!" )
+favorite_book("Be kind")
+
+#exercise 3
+def make_shirt(size, msg):
+    print( size + " shirt is being made")
+    print(msg)
+make_shirt("small", "Programming is fun!")
+make_shirt(msg="Coding is fun.", size= "medium")
+
+#exercise 4
+def make_shirt(size= "large", message="I love python!" ):
+    print(size + " shirt is being made")
+    print(message)
+make_shirt()
+make_shirt(size="medium")
+make_shirt("small", "Confusion is part of programming.")
+
+#exercise 5
+def describe_city(city, country= "USA"):
+    statement= (city +  " is in " + country)
+    print(statement)
+describe_city("New York")
+describe_city("Seattle")
+describe_city("Toronto","Canada")

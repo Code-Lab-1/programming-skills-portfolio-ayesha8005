@@ -1,0 +1,21 @@
+#exercise 1
+print("Twinkle, twinkle, little star,\n\tHow I wonder what you are! \n\t\tUp above the world so high, \n\t\tLike a diamond in the sky. \nTwinkle, twinkle, little star, \n\tHow I wonder what you are")
+
+#exercise 2
+import sys
+print("Python version")
+
+#excercise 3
+import datetime
+current_datetime = datetime.datetime.now()
+print(current_datetime)
+#exercise 4
+name = "Sam"
+age = "18"
+height = str(162.78)
+print(name + " is", age + " and his height is " + height)
+
+#exercise 5
+radius = float(input("Enter the radius: "))
+pi = 3.14
+print ("Area of circle is : " + str(pi * radius**2))
