@@ -1,3 +1,4 @@
+#exercise 1
 question1 = "What kind of topping do you want to add"
 question = "Please enter 'quit' when you are done "
 
@@ -54,3 +55,8 @@ while sandwich_orders:
     
 for sandwich in finished_sandwiches:
     print(sandwich + " was made.")
+
+#exercise 6
+list = ["A", "y", "e","s", "h", "a"]
+for i in list:
+ print(i)
