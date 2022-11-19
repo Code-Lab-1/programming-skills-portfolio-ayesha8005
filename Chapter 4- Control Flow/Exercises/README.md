@@ -77,3 +77,37 @@ Make a list of your favorite fruits, and then write a series of independent if s
 •Write five if statements. Each should check whether a certain kind of fruit is in your list. If the fruit is in your list, the if block 
 
 should print a statement,such as You really like bananas!
+
+## Exercise 6: Marks
+
+Write an if-else statement that determines marks. If the mark is above 60 print pass, else skip.
+
+&nbsp;
+&nbsp;
+
+## Exercise 7: Temperature 
+
+Write an if-else statement that determines if the temperature is too hot or cold.
+
+&nbsp;
+&nbsp;
+
+## Exercise 8:  Grades
+
+Using if-else, give specific range for specific grades. For example, " If marks are in between 60 and 70, print "B" ".
+
+&nbsp;
+&nbsp;
+
+## Exercise 9: Value
+Take two int values from user and print greatest among them.
+
+&nbsp;
+&nbsp;
+
+## Exercise 10: Square
+Take values of length and breadth of a rectangle from user and check if it is square or not.
+
+&nbsp;
+&nbsp;
+

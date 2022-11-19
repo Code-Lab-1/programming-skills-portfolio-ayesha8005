@@ -58,3 +58,27 @@ if "mango" in favorite_fruits:
 if "apple" in favorite_fruits:
     print("You really like apple")
 
+#exercise6
+marks = int(input())
+if marks >= 60:
+  print("passed")
+else: 
+    print("you are failed")
+
+#exercise7
+temp = int(input())
+if temp < 40:
+  print("A little cold, isnt it")
+else:
+    print("Nice weather we're having")
+
+#exercise8
+marks = int(input())
+if marks >= 60 and marks <= 70:
+  print("B")
+elif marks >= 70 and marks <= 80:
+  print("A")
+elif marks >= 80 and marks <= 90:
+  print("A+")
+elif marks < 40:
+  print("fail")

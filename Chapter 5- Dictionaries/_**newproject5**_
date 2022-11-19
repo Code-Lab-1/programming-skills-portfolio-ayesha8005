@@ -38,7 +38,7 @@ print("Name of country:")
 for i in major_rivers.values():
     print(i)
 
-#exercise5
+#exercise 5
 cat = {"animal type" : "cat", "name": "silver", "owners name": "dana", "eats": "tuna"}
 
 snake = {"animal type" : "snake", "name":"cobra", "owners name": "jude", "eats" : "rats"}
@@ -48,3 +48,23 @@ bird = {"animal type" : "bird", "name" : "bob", "owners name" : "mark", "eats" :
 pet = [cat,snake,bird]
 for i in pet:
     print(i)
+
+#exercise 6
+student = { "Name":"Ahmad", "Age" : "28", "Class" : "Year1", "Gender":"Male", "Location": "United Arab Emirates", "Email": "ahmad@bathspa.ae", "Mobile": "056 34654"}
+
+print(student.keys())
+
+#exercise 7
+x= student.items()
+print(x)
+
+#exercise 8
+if "Name" in student:
+  print("Yes Name exists in the Student Dictionary")
+
+#exercise 9 
+student["Name"] = "ALI"
+print(student)
+
+#exercise 10
+print(len(student))
