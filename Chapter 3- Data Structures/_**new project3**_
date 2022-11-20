@@ -95,3 +95,24 @@ print (places)
 
 print("Reverse alphabatically")
 print(sorted(places , reverse=True))
+
+#exercise 8
+list1 = [20, 30, 40, 50, 60]
+list1.reverse()
+print(list1)
+
+#exercise 9 
+list1 = [4, 20, 13, 20, 25, 70, 20]
+
+while 20 in list1:
+    list1.remove(20)
+print(list1)
+
+#exercise 10
+def max_num (list ):
+    max = list[ 0 ]
+    for a in list:
+        if a > max:
+            max = a
+    return max
+print(max_num([1, 2, -8, 0]))
