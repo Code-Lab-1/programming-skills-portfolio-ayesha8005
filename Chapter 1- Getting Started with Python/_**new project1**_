@@ -19,3 +19,24 @@ print(name + " is", age + " and his height is " + height)
 radius = float(input("Enter the radius: "))
 pi = 3.14
 print ("Area of circle is : " + str(pi * radius**2))
+
+#exercise 6
+def sum(x, y, z):
+
+     sum = x + y + z
+  
+     if x == y == z:
+      sum = sum * 3
+     return sum
+
+print(sum(1, 2, 3))
+print(sum(3, 3, 3))
+
+#exercise 7
+a = input("Type the value of number a: ")
+b = input("Type the value of number b: ")
+
+a = int(a)
+b = int(b)
+s = a+b
+print("The sum of a and b is a + b = ", s)
