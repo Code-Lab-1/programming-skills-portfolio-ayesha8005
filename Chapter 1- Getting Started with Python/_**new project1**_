@@ -40,3 +40,39 @@ a = int(a)
 b = int(b)
 s = a+b
 print("The sum of a and b is a + b = ", s)
+
+#exercise 8
+n = input("Type value of the integer n: ")
+ 
+n = int(n)
+
+if(n%2 == 0):
+     print("The number '", n, "' is even")
+else:
+     print("The number '", n, "' is odd ")
+
+#exercise 9
+x = input("Input the first number")
+y = input("Input the second number")
+z = input("Input the third number")
+
+if y < x and x < z:
+    print(x)
+elif z < x and x < y:
+    print(x)
+    
+elif z < y and y < x:
+    print(y)
+elif x < y and y < z:
+    print(y)
+    
+elif y < z and z < x:
+    print(z)    
+elif x < z and z < y:
+    print(z)
+
+#exercise 10
+
+str1='Python Exercises\n'
+print(str1)
+print(str1.rstrip())
