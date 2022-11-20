@@ -29,7 +29,10 @@ V= 4.0/3.0*pi* r**3
 print('The volume of the sphere is: ',V)
 
 #exercise 7
-
 fname = input("Input your First Name : ")
 lname = input("Input your Last Name : ")
 print ("Hello  " + lname + " " + fname)
+
+#exercise 8
+for i in range(1,101):
+     print(i)
