@@ -36,3 +36,7 @@ print ("Hello  " + lname + " " + fname)
 #exercise 8
 for i in range(1,101):
      print(i)
+
+#exercise 9 
+fav_colors = "red", "blue", "black"
+print(fav_colors)
