@@ -55,4 +55,37 @@ Call your function for three different cities, at least one of which is not in t
 &nbsp;
 &nbsp;
 
+## Exercise 6: First name
 
+Write a function to display your first name.
+
+&nbsp;
+&nbsp;
+
+## Exercise 7: Last name
+
+Write a function to print your first and last name.
+
+&nbsp;
+&nbsp;
+
+## Exercise 8: Average
+
+Write a function to get the average of five numbers.
+
+&nbsp;
+&nbsp;
+
+## Exercise 9: Maximum number
+
+Write a function to take three numbers as input and find the maximum number.
+
+&nbsp;
+&nbsp;
+
+## Exercise 10: List
+
+Write a program to print all the names in a list, you have to use functions.
+
+&nbsp;
+&nbsp;
