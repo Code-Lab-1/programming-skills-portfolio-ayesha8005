@@ -5,10 +5,12 @@ print("Twinkle, twinkle, little star,\n\tHow I wonder what you are! \n\t\tUp abo
 import sys
 print("Python version")
 print(sys.version)
+
 #excercise 3
 import datetime
 current_datetime = datetime.datetime.now()
 print(current_datetime)
+
 #exercise 4
 name = "Sam"
 age = "18"
@@ -28,7 +30,6 @@ def sum(x, y, z):
      if x == y == z:
       sum = sum * 3
      return sum
-
 print(sum(1, 2, 3))
 print(sum(3, 3, 3))
 
@@ -52,20 +53,18 @@ else:
      print("The number '", n, "' is odd ")
 
 #exercise 9
-x = input("Input the first number")
-y = input("Input the second number")
-z = input("Input the third number")
+x = input("Input the first number: ")
+y = input("Input the second number: ")
+z = input("Input the third number: ")
 
 if y < x and x < z:
     print(x)
 elif z < x and x < y:
-    print(x)
-    
+    print(x)   
 elif z < y and y < x:
     print(y)
 elif x < y and y < z:
-    print(y)
-    
+    print(y)    
 elif y < z and z < x:
     print(z)    
 elif x < z and z < y:
