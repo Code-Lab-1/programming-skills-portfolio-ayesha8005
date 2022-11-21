@@ -57,4 +57,37 @@ occurrences of 'pastrami' from sandwich_orders. Make sure no pastrami sandwiches
 &nbsp;
 &nbsp;
 
+## Exercise 6: Name
 
+Print all the letters in your name individually.
+
+&nbsp;
+&nbsp;
+
+## Exercise 7: Ratio
+
+Print specified elements from list (atleast 3).
+
+&nbsp;
+&nbsp;
+
+## Exercise 8:  Range
+
+Write a function using range.
+
+&nbsp;
+&nbsp;
+
+## Exercise 9: Multiplication
+
+Write a program to print multiplication table of a given number.
+
+&nbsp;
+&nbsp;
+
+## Exercise 10: Odd and Even numbers
+
+Print all even and odd numbers
+
+&nbsp;
+&nbsp;
