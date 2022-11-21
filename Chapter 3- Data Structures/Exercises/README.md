@@ -105,4 +105,25 @@ Think of at least five places in the world you’d like to visit.
 &nbsp;
 &nbsp;
 
+## Exercise 8:  Reverse
+
+Reverse a list in Python.
+
+&nbsp;
+&nbsp;
+
+## Exercise 9: Remove occurrences
+
+Given a Python list, write a program to remove all occurrences of item 20.
+
+&nbsp;
+&nbsp;
+
+## Exercise 10: Largest number
+
+Write a Python program to get the largest number from a list.
+
+&nbsp;
+&nbsp;
+
 
