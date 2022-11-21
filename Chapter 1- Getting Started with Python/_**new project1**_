@@ -4,7 +4,7 @@ print("Twinkle, twinkle, little star,\n\tHow I wonder what you are! \n\t\tUp abo
 #exercise 2
 import sys
 print("Python version")
-
+print(sys.version)
 #excercise 3
 import datetime
 current_datetime = datetime.datetime.now()
