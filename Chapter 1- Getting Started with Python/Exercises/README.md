@@ -59,3 +59,35 @@ Write a Python program to calculate the sum of three given numbers, if the value
 &nbsp;
 &nbsp;
 &nbsp;
+
+## Exercise 7:  Addition
+
+Write a program in Python that asks the user to enter two numbers 'a' and 'b' and display their sum: 'a + b'.
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+## Exercise 8: Integer
+
+Write a program in Python language that asks the user to enter an integer number 'n' and display whether this number is even or odd.
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+## Exercise 9: Median
+
+Write a Python program to find the median among three given numbers.
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+## Exercise 10: String
+
+Write a Python program to remove a newline in Python.
+
+&nbsp;
+&nbsp;
+&nbsp;
