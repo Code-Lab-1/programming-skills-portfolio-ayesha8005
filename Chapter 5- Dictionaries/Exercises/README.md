@@ -69,3 +69,37 @@ each pet
 &nbsp;
 
 
+## Exercise 6: Get keys
+
+Make a dictionary and use the get key method.
+
+&nbsp;
+&nbsp;
+
+## Exercise 7: Items
+
+Use the same dictionary in Exercise 6 to return each item in the dictionary as tuples in a list.
+
+&nbsp;
+&nbsp;
+
+## Exercise 8: 
+
+Use the same dictionary in Exercise 6 to check if a specified key exists to determine if it is present in the dictionary.
+
+&nbsp;
+&nbsp;
+
+## Exercise 9:
+
+Using the dictionary in Exercise 6 change one of the values in the dictionary by referring to its key name.
+
+&nbsp;
+&nbsp;
+
+## Exercise 10:
+
+Find the length of the dictionary used in Exercise 6.
+
+&nbsp;
+&nbsp;
