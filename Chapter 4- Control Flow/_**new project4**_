@@ -82,3 +82,25 @@ elif marks >= 80 and marks <= 90:
   print("A+")
 elif marks < 40:
   print("fail")
+
+#exercise9
+print ("Enter first number")
+first = input()
+print ("Enter second number")
+second = input()
+if first>second:
+  print ("Greatest is",first)
+elif second>first:
+  print ("Greatest is",second)
+else:
+  print ("Both are equal")
+
+#exercise10
+print ("Enter length")
+length = input()
+print ("Enter breadth")
+breadth = input()
+if length == breadth:
+  print ("Yes, it is square")
+else:
+  print ("No, it is only Rectangle")
