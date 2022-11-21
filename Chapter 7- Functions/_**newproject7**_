@@ -31,3 +31,45 @@ def describe_city(city, country= "USA"):
 describe_city("New York")
 describe_city("Seattle")
 describe_city("Toronto","Canada")
+
+#exercise 6
+def name(fname):
+  print("Welcome" + fname)
+print("ayesha")
+
+#exercise 7
+def name(fname, lastname):
+  print("Welcome" + fname + lastname)
+  
+print("ayesha adnan")
+
+#exercise 8
+def average():
+   a = int(input())
+   b = int(input())
+   c = int(input())
+   d = int(input())
+   e = int(input())
+
+   print(a+b+c+d+e/5)
+average()
+
+#exercise 9
+def max_no():
+  a = int(input())
+  b = int(input())
+  c = int(input())
+  if a > b and a > c:
+   print(a)
+  elif b > a and b > c:
+    print(b)
+  else:
+    print(c)
+max_no()
+
+#exercise 10
+def names():
+  names = ["fatima", "maryam", "huda", "zainab"]
+  print(names)
+names()
+
