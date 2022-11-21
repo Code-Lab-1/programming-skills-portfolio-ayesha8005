@@ -69,3 +69,38 @@ You will to use the arithmetic operators to complete this exercise.
 &nbsp;
 &nbsp;
 &nbsp;
+
+## Exercise 6: Radius
+
+Write a Python program to get the volume of a sphere with radius 6.
+
+&nbsp;
+&nbsp;
+
+## Exercise 7: Name
+
+Write a Python program which accepts the user's first and last name and print them in reverse order with a space between them.
+
+&nbsp;
+&nbsp;
+
+## Exercise 8: Iterate
+
+Write a program in Python that displays the first 100 integers.
+
+&nbsp;
+&nbsp;
+
+## Exercise 9: Colors
+
+Make a variable called fav_colors and store three favorite colors and print them.
+
+&nbsp;
+&nbsp;
+
+## Exercise 10: Welcome
+
+Write a program in Python language that asks the user to enter their name and display their name with a welcome message!.
+
+&nbsp;
+&nbsp;
